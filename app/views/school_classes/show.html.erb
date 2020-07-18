@@ -1,0 +1,6 @@
+<h1><%= @school_class.title %></h1><br><br>
+Room Number: <%= @school_class.room_number %><br><br>
+
+<%= button_to "Edit Class", edit_school_class_path, method: "get" %><br><br>
+
+<%= button_to "Class List", school_classes_path, method: "get" %>
